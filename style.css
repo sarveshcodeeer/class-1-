@@ -1,0 +1,57 @@
+  .heading
+  {
+    padding: 8px;
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+  }
+  .heading_div
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    width:40% ; 
+
+    padding: 8px;
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result_para_tag
+  {
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+  canvas{
+background-color: black;
+animation-name: dr ;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+border:5px solid whitesmoke ;
+margin-top: 140px ; 
+border-radius: 40px; 
+}
+
+@keyframes dr {
+
+from{box-shadow: 1px 1px 39px darkblue;}
+to{box-shadow: 1px 1px 39px rgb(248, 1, 1);}
+}
+
+.footer {
+
+background-color: grey;
+color: white;
+padding: 5px;
+text-align: center;
+bottom: 0;
+position: fixed;
+width: 100%;
+}
+
+
+
+  
+ 
